@@ -23,13 +23,17 @@ Your notebook begins by importing all required libraries:
 - NumPy  
 - scikit‑learn  
 - Matplotlib  
-- PyTorch  
+- PyTorch
+- joblib
+- shap
 ```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import sklearn
 import torch
+import joblib
+import shap
 ```
 
 These handle data loading, preprocessing, ML models, and deep learning.
